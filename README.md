@@ -1,278 +1,89 @@
 [LISTA DE EXERCÍCIOS I (ESTRUTURAS SEQUENCIAL E DE DECISÃO).pdf](https://github.com/user-attachments/files/16353462/LISTA.DE.EXERCICIOS.I.ESTRUTURAS.SEQUENCIAL.E.DE.DECISAO.pdf)
 
-## COMPYTHON(ESTRUTURASSEQUENCIALEDEDECISÃO)
-
-Prof.ValterEstevam
-
 Orientações:
 
-```
-a) Emcadaexercícioutilizemensagensadequadasparaexplicaraousuáriooqueé
-solicitadoouoresultadodoprograma.
-b) Osexercíciosobrigatóriosestãoavaliadosemtrêsníveisdedificuldade:[*]fácil,[**]
-médioe[***]difícil.
-c) Osproblemasdestacadoscomo[****]sãodesafiosdeprogramaçãoenãosãode
-entregaobrigatória.
-d) Aresoluçãodestalistadeexercíciosvalida10hdocurso.
-```
-**EstruturaSequencial**
+    a) Em cada exercício, utilize mensagens adequadas para explicar ao usuário o que é solicitado ou o resultado do programa.
+    b) Os exercícios obrigatórios estão avaliados em três níveis de dificuldade:
+        [*] fácil
+        [**] médio
+        [***] difícil
+    c) Os problemas destacados como [****] são desafios de programação e não são de entrega obrigatória.
+    d) A resolução desta lista de exercícios valida 10h do curso.
 
-1[*].EscrevaumprogramaemPythonquecalculeaáreadeumtriângulo,considerandoa
-equação:
+Estrutura Sequencial
 
-```
-area=base*altura/ 2
-```
-2[*].EscrevaumprogramaemPythonqueleiadoisnúmerosnasvariáveisv1ev2,calcule
-suamédianavariávelmediaeimprimaseuvalor.
+[*] Escreva um programa em Python que calcule a área de um triângulo, considerando a equação:
 
-3[*].EscrevaumprogramaemPythonqueleiadoisnúmerosnasvariáveisnAenB,nessa
-ordem,eimprimaemordeminversa,istoé,seosdadoslidosforem 5 e9,porexemplo,
-devemserimpressosnaordem 9 e5.
+area = base * altura / 2
 
-4[*].EscrevaumprogramaemPythonqueleiatrêsvalores,representandoocomprimento,
-larguraealturadeumacaixaretangularecalculeoseuvolume.
+[*] Escreva um programa em Python que leia dois números nas variáveis v1 e v2, calcule sua média na variável media e imprima seu valor.
 
-5[*].EscrevaumprogramaemPythonparadeterminaroconsumomédiodeumautomóvel
-sendofornecidaadistânciatotalpercorridapeloautomóveleototaldecombustívelgasto.
+[*] Escreva um programa em Python que leia dois números nas variáveis nA e nB, nessa ordem, e imprima em ordem inversa. Por exemplo, se os dados lidos forem 5 e 9, devem ser impressos na ordem 9 e 5.
 
-6[*]. Uma revendedora de carros paga aos seus funcionários vendedores dois
-salários-mínimosfixos,maisumacomissãofixadeR$150,00porcarrovendidoemais5%
-dovalordasvendas.EscrevaumprogramaemPythonquedetermineosaláriototaldeum
-vendedor.
+[*] Escreva um programa em Python que leia três valores, representando o comprimento, largura e altura de uma caixa retangular e calcule o seu volume.
 
-7[*]. Osistema de avaliação de determinada disciplina é composto portrêsprovas. A
-primeiraprovatempeso 2,asegundaprovatempeso 4 eaterceiraprovatempeso6.
-EscrevaumprogramaemPythonparacalcularamédiafinaldeumalunodessadisciplina.
+[*] Escreva um programa em Python para determinar o consumo médio de um automóvel, sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.
 
-8[*]. Um produto é vendido por um preço compostopelos seguintesvalores: custo de
-produção,custodetransporte,impostos,margemdelucro.FaçaumprogramaemPython
-que leia o valor do custo de produção (em R$), o custo para transporte (em R$), o
+[*] Uma revendedora de carros paga aos seus funcionários vendedores dois salários-mínimos fixos, mais uma comissão fixa de R$ 150,00 por carro vendido e mais 5% do valor das vendas. Escreva um programa em Python que determine o salário total de um vendedor.
 
+[*] O sistema de avaliação de determinada disciplina é composto por três provas. A primeira prova tem peso 2, a segunda prova tem peso 4 e a terceira prova tem peso 6. Escreva um programa em Python para calcular a média final de um aluno dessa disciplina.
 
-percentualdeimpostos(em%)eopercentualdemargemdelucro(em%)emostreopreço
-finaldoprodutoaoconsumidor.Opreçodoprodutoserádadopelaequação:
+[*] Um produto é vendido por um preço composto pelos seguintes valores: custo de produção, custo de transporte, impostos, margem de lucro. Faça um programa em Python que leia o valor do custo de produção (em R$), o custo para transporte (em R$), o percentual de impostos (em %) e o percentual de margem de lucro (em %) e mostre o preço final do produto ao consumidor. O preço do produto será dado pela equação:
 
-preço_final = custo_producao + (custo_producao * taxa_impostos)+ custo_producao *
-taxa_lucro+transporte
+scss
 
-9[**]. Escreva um programa em Python que leia dois valores: p e t, representando,
-respectivamente,ovalordeumaprestaçãoeataxadejuros(entre 0 e100)cobradapelo
-atraso.Calculeovalordaprestaçãoatrasadap_acomaequação:
+preço_final = custo_producao + (custo_producao * taxa_impostos) + custo_producao * taxa_lucro + transporte
 
-```
-p_a=p+(p*t/100)
-```
-10[**].Escrevaum programaem Pythonque leiadois valores,representandooraiore
-alturaadeumalataecalculeoseuvolumev,cujaequaçãoédadapor
+[**] Escreva um programa em Python que leia dois valores: p e t, representando, respectivamente, o valor de uma prestação e a taxa de juros (entre 0 e 100) cobrada pelo atraso. Calcule o valor da prestação atrasada p_a com a equação:
 
-```
-v=3.1415*r²*a.
-```
-11[**].EscrevaumprogramaemPythonqueleiaumatemperaturaemgrausFahrenheitt_f
-econvertaparagrausCelsiust_c,cujaequaçãodeconversãoé
+css
 
-```
-t_c=(t_f–32)*(5/9).
-```
-12[**]. Escreva um programa em Python que leia uma quantidade de chuvadada em
-polegadaseimprimaoequivalenteemmilímetros(25,4mm= 1 polegada).
+p_a = p + (p * t / 100)
 
-13[**].Escrevaum programaem Pythonparaler,calculareescreveramédiaaritmética
-entrequatronúmeros.
+[**] Escreva um programa em Python que leia dois valores, representando o raio r e a altura a de uma lata e calcule seu volume v, cuja equação é dada por:
 
-14[**]. Escreva um programa em Python que calcule a quantidade de galões de tinta
-necessários,bem comooseucusto, parapintar um tanquedecombustívelemformato
-cilíndrico.Sabe-sequeogalãode3,6litrosdetintacustaR$60,00equecadalitrodetinta
-pinta três metros quadrados em média. Para se obter uma pinturade qualidade são
-necessáriasduasdemãos.
+css
 
-15[**]. Uma fábrica deseja produzir caixas de papelão e para isso precisa adquirir
-matéria-prima. Escreva um programa em Python que leiao comprimento,aalturaea
-largura domodelode caixaque seráproduzido, assimcomoaquantidade de caixasa
-seremfabricadas.Determineaquantidadedematerialemmetrosquadradossabendoqueé
-necessário prever um adicional de 10% sobre o valor mínimo de modo a garantir a
-produção.
+v = 3.1415 * r² * a
 
-16[**].FaçaumprogramaemPythonemqueousuárioinformaosvaloresdoscatetosde
-umtriânguloretânguloequeaofinalescrevaasuahipotenusa.
+[**] Escreva um programa em Python que leia uma temperatura em graus Fahrenheit t_f e converta para graus Celsius t_c, cuja equação de conversão é:
 
-17[**].EscrevaumprogramaemPythonquerecebaumintervalodetempoemsegundos.
-Calculeeimprimaemtelaquantoesteintervalocorrespondeemminutos,horasedias.
+scss
 
-18[***].EscrevaumprogramaemPythonqueleiaumvalorinteiropositivoemenordoque
-1000,armazene-onumavariáveldotipointedetermineasomadosdígitosqueformamo
+t_c = (t_f – 32) * (5 / 9)
 
+[**] Escreva um programa em Python que leia uma quantidade de chuva dada em polegadas e imprima o equivalente em milímetros (25,4 mm = 1 polegada).
 
-valor.Exemplo:ovalor 397 temasomadosdígitosigual 3 + 9 + 7 =19.Pesquisesobreo
-operadormodemPython.
+[**] Escreva um programa em Python para ler, calcular e escrever a média aritmética entre quatro números.
 
-19[***].Suponhaqueumcaixaeletrônicodisponhadenotasde1,2,5,10,20,50, 100 e
-200 reais.Considerandoquealguémestásacandoumaquantia,escrevaumprogramaem
-Python quemostreonúmeromínimodenotasdecadatipoqueocaixaeletrônicodeve
-entregaraocliente.
+[**] Escreva um programa em Python que calcule a quantidade de galões de tinta necessários, bem como o seu custo, para pintar um tanque de combustível em formato cilíndrico. Sabe-se que o galão de 3,6 litros de tinta custa R$ 60,00 e que cada litro de tinta pinta três metros quadrados em média. Para se obter uma pintura de qualidade, são necessárias duas demãos.
 
-20[***]. Dadoquesetemovalordeumânguloexpressoemgraus,minutosesegundos
-(exemplo35º47'59''),escrevaumprogramaemPythonqueforneçaovalordesseângulo
-emradianos.Dica:360°=2*PIradianos.
+[**] Uma fábrica deseja produzir caixas de papelão e para isso precisa adquirir matéria-prima. Escreva um programa em Python que leia o comprimento, a altura e a largura do modelo de caixa que será produzido, assim como a quantidade de caixas a serem fabricadas. Determine a quantidade de material em metros quadrados sabendo que é necessário prever um adicional de 10% sobre o valor mínimo de modo a garantir a produção.
 
-21[***]. Acomprade umproduto ouserviçopago aempresanoexteriorcomcartãode
-créditoestásujeitaàcobrançadeImpostosobreOperaçõesFinanceiras(IOF)nataxade
-6,38%sobreovalorconvertidoparareais.Sendoassim,escrevaumprogramaemPython
-queleiaovalordeumacompra(emdólar)eataxadecâmbiododia(ex: 1 dólar=5,
-reais)eaofinalimprimaovalordacompraemreais(semIOF),ovalordoIOFeovalortotal
-cobradodapessoa.
+[**] Faça um programa em Python em que o usuário informa os valores dos catetos de um triângulo retângulo e que ao final escreva a sua hipotenusa.
 
-22[****].EscrevaumprogramaemPythonparadeterminaradistânciaentredoispontosem
-umplanocartesiano.
+[**] Escreva um programa em Python que receba um intervalo de tempo em segundos. Calcule e imprima na tela quanto este intervalo corresponde em minutos, horas e dias.
 
-23[****].Umaescalatermométricaéusualmentedefinidaapartirdeduasinformaçõessobre
-aágua,asaber:oseupontodefusãoeoseupontodeevaporação.Supondoumanova
-escalatermométricachamadaEstevam,naqualopontodefusãosedánovalor 20 eo
-pontodeevaporaçãoocorreem150.EscrevaumprogramaemPythonqueconvertauma
-temperaturamedidaemCelsiusparaEstevam.
+[***] Escreva um programa em Python que leia um valor inteiro positivo e menor que 1000, armazene-o numa variável do tipo int e determine a soma dos dígitos que formam o valor. Exemplo: o valor 397 tem a soma dos dígitos igual a 3 + 9 + 7 = 19. Pesquise sobre o operador mod em Python.
 
-24[****].Amesmaideiautilizadaparacriarnovasescalastermométricaspodeseradotada
-paranormalizarumagrandezaqualquerentrevalorespré-definidos.Porexemplo,emuma
-aplicação de visãocomputacional é necessário ler valores de pixels de uma imagem.
-Sabendoquearepresentaçãodaimagemutilizaumaprofundidadede 8 bits,issosignifica
-queosvaloresdospixelspodemvariarentre 0 e255.Entretanto,parausarcomoentrada
-emumaredeneuralénecessáriomudaraescaladevalorespara-1a1.Issosignificaque
-umpixel 0 vale-1equeumpixel 255 vale1.EscrevaumprogramaemPythonquereceba
-ovalordeumpixeleoapresentedentrodaescalaentre-1e1.
+[***] Suponha que um caixa eletrônico disponha de notas de 1, 2, 5, 10, 20, 50, 100 e 200 reais. Considerando que alguém está sacando uma quantia, escreva um programa em Python que mostre o número mínimo de notas de cada tipo que o caixa eletrônico deve entregar ao cliente.
 
-**EstruturadeDecisão**
+[***] Dado que se tem o valor de um ângulo expresso em graus, minutos e segundos (exemplo 35º47'59''), escreva um programa em Python que forneça o valor desse ângulo em radianos. Dica: 360° = 2 * PI radianos.
 
-25[*]. Construa um programa em Python que recebacomo entrada dois valores e os
-imprimaemordemcrescente.
+[***] A compra de um produto ou serviço pago a empresa no exterior com cartão de crédito está sujeita à cobrança de Imposto sobre Operações Financeiras (IOF) na taxa de 6,38% sobre o valor convertido para reais. Sendo assim, escreva um programa em Python que leia o valor de uma compra (em dólar) e a taxa de câmbio do dia (ex: 1 dólar = 5 reais) e ao final imprima o valor da compra em reais (sem IOF), o valor do IOF e o valor total cobrado da pessoa.
 
-26[*].FaçaumprogramaemPythonqueleiaosvaloresA,BeC.Mostreumamensagem
-queinformeseasomadeAcomBémenor,maiorouigualaC.
+[****] Escreva um programa em Python para determinar a distância entre dois pontos em um plano cartesiano.
 
+[****] Uma escala termométrica é usualmente definida a partir de duas informações sobre a água, a saber: o seu ponto de fusão e o seu ponto de evaporação. Supondo uma nova escala termométrica chamada Estevam, na qual o ponto de fusão se dá no valor 20 e o ponto de evaporação ocorre em 150. Escreva um programa em Python que converta uma temperatura medida em Celsius para Estevam.
 
-27[*].CrieumprogramaemPythonquepeçaonome(tipodedadoliteral),aalturaeopeso
-deduaspessoaseapresenteonomedamaispesadaeonomedamaisalta.
+[****] A mesma ideia utilizada para criar novas escalas termométricas pode ser adotada para normalizar uma grandeza qualquer entre valores pré-definidos. Por exemplo, em uma aplicação de visão computacional é necessário ler valores de pixels de uma imagem. Sabendo que a representação da imagem utiliza uma profundidade de 8 bits, isso significa que os valores dos pixels podem variar entre 0 e 255. Entretanto, para usar como entrada em uma rede neural é necessário mudar a escala de valores para -1 a 1. Isso significa que um pixel 0 vale -1 e que um pixel 255 vale 1. Escreva um programa em Python que receba o valor de um pixel e o apresente dentro da escala entre -1 e 1.
 
-28[*].Faça umprogramaemPythonqueleiaosaláriofixodeumvendedoreototalde
-vendasefetuadasporelenomês(emdinheiro).Sabendoqueestevendedorganha15%de
-comissãosobresuasvendasefetuadascasoelasultrapassemR$10.000,00e7.5%caso
-contrário,informaroseusalárionofinaldomês.
+Estrutura de Decisão
 
-29[*].ConstruirumprogramaemPythonqueleiaaidadeeaalturadeumjogador.Seo
-jogadortivermaisde 18 anosesetivermaisdoque1.90dealtura,deveexibiramensagem
-indicandoqueojogadorestáforadacategoria'A'.
+[*] Construa um programa em Python que receba como entrada dois valores e os imprima em ordem crescente.
 
-30[*].Escrevaum programaemPython que leiaaidade deumapessoaeinformesua
-classeeleitoral:
+[*] Faça um programa em Python que leia os valores A, B e C. Mostre uma mensagem que informe se a soma de A com B é menor, maior ou igual a C.
 
-- Nãoeleitor(abaixode 16 anos);
-- Eleitorobrigatório(entre 18 e 65 anos)e
-- Eleitorfacultativo(entre 16 e 18 anoseacimados 65 anos).
+[*] Crie um programa em Python que peça o nome (tipo de dado literal), a altura e o peso de duas pessoas e apresente o nome da mais pesada e o nome da mais alta.
 
-31[*].UmhotelcobraR$60.00adiáriaemaisumataxadeserviços.Ataxadeserviçosé
-de:
-
-- R$5.50pordiária,seonúmerodediáriasformaiorque5;
-- R$6.00pordiária,seonúmerodediáriasforiguala5;
-- R$8.00pordiária,seonúmerodediáriasformenorque5.
-ConstruaumprogramaemPythonqueimprimaonúmerodediáriasevalortotaldaconta.
-
-32[*].Umjogoconsisteemretirarduasfichasdeumsacocontendofichasbrancasepretas.
-Dependendodacombinaçãodecoresdasfichasretiradas,ojogadorserápagonaseguinte
-proporção:
-
-Ouseja,com duasfichasbrancaso jogadorperdetudo, comumabrancaeumapreta
-recebemetadedoqueapostou,comumapretaeumabrancarecebeseudinheirodevolta
-ecomduaspretasrecebeodobro.ElaborarumprogramaemPythonquelêovalortotal
-apostado eascoresdasduasfichas.Ao final, oprogramaexibeovalorqueojogador
-deveráreceber.
-
-
-33[*].Umaempresaquerverificarseumempregadoestáqualificadoparaaaposentadoria
-ounão.Paraestaremcondições,umdosseguintesrequisitosdevesersatisfeito:
-
-- Ternomínimo 65 anosdeidade.
-- Tertrabalhadonomínimo 30 anos.
-- Ternomínimo 60 anosetertrabalhadonomínimo 25 anos.
-
-Com basenasinformaçõesacima, façaumprograma emPython queleia: aidadeea
-quantidade de anos trabalhados. Oprograma deverá escrever a idade e o tempode
-trabalhodoempregadoeamensagem'Requereraposentadoria'ou'Nãorequerer'.
-
-34[*]. Suponha que o conceito deum alunosejadeterminado emfunção dasuanota.
-Suponha,também,que estanota sejaum valorinteironafaixade 0 a100,conformea
-seguintefaixa:
-
-Nota Conceito
-0 a 60 D
-60 a 80 C
-80 a 90 B
-90 a 100 A
-
-CrieumprogramaemPythonqueleiaanotadeumalunoeimprimaoseuconceito.
-
-35[*].FazerumprogramaemPythonparaajudarnocálculodosaláriodeumfuncionário.O
-sistema deve ler nome do funcionário, salário bruto enúmero dedependentesedeve
-mostrar:nomedofuncionárioesaláriolíquido.Considereaseguinteregraparaocálculo:
-Salário Líquido= SalárioBruto–DescontoINSS+(15,00*NúmerodeDependentes)+
-AuxílioPassagem(40,00)+AuxílioRefeição(100,00)
-
-36[**].Escrevaum programaem Pythonquepermitaaumusuárioescolherquetipode
-média (aritmética simples ouponderada) deseja calcularapartir detrês notas.Casoa
-escolhasejapelaaritmética,oalgoritmodevelerasnotaseimprimiramédia.Casosejaa
-médiaponderada,oalgoritmodevelertambémospesos.
-
-37[**].EscrevaumprogramaemPythonqueleiaasnotasdeumcandidatoemtrêsprovas:
-Português,MatemáticaeConhecimentosGerais.Após,calculeeimprima:
-
-a)amédiadocandidato;
-
-
-b) uma informação dizendo se o candidato foi aprovado ou não. Considere que um
-candidatoéaprovadosesuamédiaformaiorque7.0esenãoapresentounenhumanota
-abaixode5.0;
-
-38[**].Umacontatelefônicaécompostadosseguintescustos:
-
-- assinatura:R$21,
-- minutoslocais:R$0,03porminutoqueexcedera 60 minutos.
-- minutosinterurbanos:R$0,40porminutoqueexcedera 30 minutos.
-
-Elaboreum programaem Pythonque lêosminutoslocais excedenteseosminutosde
-ligaçõesdeinterurbano.Calculee/oumostre:
-
-- Valordaassinatura(R$):
-- Valordeminutoslocais(R$):
-- Valordeminutosinterurbanos(R$):
-- Valortotaldaconta(R$):
-
-39[**].Oprogramadeumalojademóveismostraasseguintescondiçõesdepagamento:
-(usarcaso)
-1-VendaaVista 2-VendaaPrazo 30 dias
-3-VendaaPrazo 60 dias 4-VendaaPrazocom 90 dias
-5-Vendacomcartãodedébito 6-Vendacomcartãodecrédito
-Faça umprogramaemPythonquerecebaovalordavenda,eocódigodacondiçãode
-pagamentoemostre aformadepagamentoeototaldavendafinalconformecondiçõesa
-seguir:
-VendaaVista-descontode10%
-VendaaPrazo 30 dias-descontode5%
-VendaaPrazo 60 dias-mesmopreço
-VendaaPrazo 90 dias-acréscimode5%
-Vendacomcartãodedébito-descontode8%
-Vendacomcartãodecrédito-descontode7%
-
-40[***].FaçaumprogramaemPythonquelêtrêsnúmerosdiferentesemostranatelauma
-mensagemindicandoqualéomaior.
-
-41[***].ElaborarprogramaemPythonquelêumadisciplinaerespectivanotafinal,múltipla
-de 0,5, e informa o que ocorreu. Leia tambémaquantidade deaulas ministradase a
-quantidadedefaltasdoaluno.
-Seanotaforde 5 a10,aprovado;se 4 ou4,5,segundaépocae,casocontrário,reprovado.
-Seanotaestiverforadafaixaválida,sejaemitidaumamensagemdeerro.
-Seoalunonãoobteve75%defreqüência,eleestáreprovado,independentementedanota.
-
-42[****].Escrevaumprograma emPythonquerealizeocálculodoimpostoderendade
-pessoafísicaparafinsdedescontoemfolhadepagamento.Seuprogramadeveconsiderar
-asregrasdecálculodeimpostoreaisevigentesem2024.Paraobteressasregrasvocê
-devefazerumapesquisa.Comosugestão,avalieosimuladoron-linedisponibilizadopela
-receitafederaedisponívelemhttps://www27.receita.fazenda.gov.br/simulador-irpf/.
+[*] Faça um programa em Python que leia o salário fixo de um vendedor e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas caso elas ultrapassem R$
